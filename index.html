@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Magazine</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <!-- Header and redirections to subpages-->
+<header>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" id="home">Home</a>
+            <a href="recipes.html">Recipes</a>
+            <a href="tipsandtricks.html">Tips&#38Tricks</a>
+            <a href="aboutus.html">About us</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+        <main>
+            <div class="container_main">
+            <section class="articles_container" id="articles">
+                <header>
+                    <a href="aboutus.html"> <img src="aboutus.png" alt="About us" class="photo_main"></a>
+                    <h1><a href="aboutus.html" class="photo_main_text link2">About us</a></h1>
+                    <p><a href="aboutus.html" class="read_more_text link2">Read more...
+                    </a></p>
+                </header>
+            </section>
+            <section class="articles_container" id="articles">
+                <header>
+                    <a href="recipes.html"><img src="recipes.jpg" alt="Recipes" class="photo_main"></a>
+                    <h1><a href="recipes.html" class="photo_main_text link2">Recipes</a></h1>
+                    <p><a href="recipes.html" class="read_more_text link2">Read more...</a></p>
+                </header>
+            </section>
+            <section class="articles_container" id="articles">
+                <header>
+                    <a href="tipsandtricks.html"><img src="tricks.png" alt="Tips&Tricks" class="photo_main"></a>
+                    <h1><a href="tipsandtricks.html" class="photo_main_text link2">Tips&amp;Tricks</a></h1>
+                    <p><a href="tipsandtricks.html" class="read_more_text link2">Read more...</a></p>
+                </header>
+            </section>
+            </div>
+        </main>
+        <footer class="footer_container">
+            <section class="contactus_container">
+                <h3>Contact Us</h3>
+                <p class="contactus_text">e-mail:  spoonnfork@gmail.com</p>
+            </section>
+            <section class="some_container">
+                <h4>Follow us here:</h4>
+                <img src="facebook.png" alt="facebook" class="icons">
+                <img src="instagram.png" alt="instagram" class="icons">
+                <img src="youtube.png" alt="youtube" class="icons">
+                <img src="pinterest.png" alt="pinterest" class="icons">
+            </section>
+        </footer>
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+    </script>
+</body>
+</html>

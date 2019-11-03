@@ -1,0 +1,70 @@
+/* Subpahe header */
+.header1 {
+    color: #8D3D5B;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 300%;
+    text-align: center;
+}
+/* First 'section' */
+.first {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+/* Header of the first photo */
+.photo_header {
+    color: #8D3D5B;
+    font-size: 150%;
+    margin-left: 1vw;
+    margin-top: 2vw;
+    font-weight: bold;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+/* First photo */
+.wooden_photo {
+    width: 30%;
+    min-width: 300px;
+    margin-left: 1vw;
+    float: left;
+    margin-right: 2vw;
+    margin-bottom: 5vw;
+
+}
+/* Both texts next to photos */
+.text1 {
+    font-size: 120%;
+    color: #6E4253;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4vw;
+    text-align: center;
+   vertical-align: middle;
+
+}
+/* Second photo */
+.eggs_photo {
+    width: 30%;
+    min-width: 300px;
+    margin-left: 1vw;
+    float: left;
+    margin-right: 2vw;
+    margin-bottom: 5vw;
+
+}
+/* Second 'section' */
+.second {
+    margin-top: 5vw;
+    margin-left: 20vw;
+}
+.bubbling {
+    margin-bottom: 3vw;
+}
+
+.eggs {
+     margin-bottom: 3vw;
+}

@@ -1,0 +1,67 @@
+/* Subpage header */
+.header1 {
+    color: #8D3D5B;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 300%;
+    text-align: center;
+}
+/* First photo */
+.fajita {
+    width: 100%;
+}
+/* Second photo */
+.spaghetti {
+    width: 100%;
+
+}
+/* First row of the photos */
+.first {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin-top: 1vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+
+}
+/* Size of all photos */
+.photos {
+    width: 40%;
+
+
+}
+/* Names of photos autors */
+.text1 {
+    font-size: 0.5vw;
+    color: lightgrey;
+}
+/* Names of meals */
+.header2 {
+    color: #8D3D5B;
+    font-size: 2vw;
+}
+/* Third photo */
+.gnocchi {
+    width: 100%;
+}
+/* Fourth photo */
+.rastapasta {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .photos {
+    width: 100%;
+    margin-top: 3vw;
+        margin-bottom: 4vw;
+}
+    .header2 {
+        font-size: 6vw;
+    }
+    .text1 {
+        font-size: 4vw;
+    }
+}
