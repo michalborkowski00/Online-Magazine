@@ -15,6 +15,10 @@
     width: 100%;
 
 }
+
+.link {
+    text-decoration: none;
+}
 /* First row of the photos */
 .first {
     display: flex;
@@ -29,6 +33,7 @@
 /* Size of all photos */
 .photos {
     width: 40%;
+    margin-bottom: 2vw;
 
 
 }

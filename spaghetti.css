@@ -1,0 +1,47 @@
+.header1 {
+    color: #8D3D5B;
+    margin-left: 5vw;
+    margin-right: 2vw;
+    margin-top: 3vw;
+    font-size: 3vw;
+    text-align: left;
+    margin-bottom: 6vw;
+}
+
+.text1 {
+    font-size: 1vw;
+    color: lightgrey;
+}
+
+.photo {
+    width: 40%;
+    float: left;
+    margin-left: 5vw;
+    min-width:300px;
+}
+
+.spaghetti {
+    width: 80%;
+    min-width: 200px;
+}
+
+.header2 {
+    color: #8D3D5B;
+    font-size: 2.5vw;
+}
+
+.ingredients {
+    float: left;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+
+.text2 {
+    font-size: 2vw;
+    color: #6E4253;
+}
+
+.directions {
+    float: left;
+    margin: 2vw 5vw 2vw 5vw;
+}
