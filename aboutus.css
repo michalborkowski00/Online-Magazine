@@ -1,3 +1,4 @@
+/* Subpage header */
 .header1 {
     color: #8D3D5B;
     margin-left: 2vw;
@@ -7,14 +8,14 @@
     text-align: center;
     margin-bottom: 6vw;
 }
-
+/* Article header */
 .header2 {
     color: #8D3D5B;
     font-size: 150%;
     text-align: center;
     margin-top: 2vw;
 }
-
+/* First paragraph */
 .text1 {
     color: #6E4253;
     font-size: 100%;
@@ -24,7 +25,7 @@
     margin-left: 20vw;
     margin-right: 20vw;
 }
-
+/* Second paragraph */
 .text2 {
     color: #6E4253;
     font-size: 100%;
@@ -33,30 +34,21 @@
     margin-left: 20vw;
     margin-right: 20vw;
 }
-
+/* First photo */
 .wallet_photo {
     align-items: center;
     width: 50%;
     display: block;
     margin: 2vw auto 6vw auto;
 }
-
-.text2 {
-    color: #6E4253;
-    font-size: 100%;
-    text-align: center;
-    margin-top: 1vw;
-    margin-left: 20vw;
-    margin-right: 20vw;
-}
-
+/* Second photo */
 .food_photo {
     align-items: center;
     display: block;
     width: 50%;
     margin: 2vw auto 6vw auto;
 }
-
+/* Third paragraph */
 .text3 {
     color: #6E4253;
     font-size: 100%;
@@ -65,14 +57,14 @@
     margin-left: 20vw;
     margin-right: 20vw;
 }
-
+/* Fourth paragraph */
 .restaurant_photo {
     align-items: center;
     width: 50%;
     display: block;
     margin: 2vw auto 6vw auto;
 }
-
+/* Article description (the very first paragraph)*/
 .description {
     margin-bottom: 10vw;
 }

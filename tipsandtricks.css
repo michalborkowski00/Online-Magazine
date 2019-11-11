@@ -68,3 +68,12 @@
 .eggs {
      margin-bottom: 3vw;
 }
+
+
+@media screen and (max-width: 600px) {
+    .wooden_photo {
+        align-items: center;
+    }
+    .eggs_photo {
+        align-items: center;
+    }
